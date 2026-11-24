@@ -103,14 +103,7 @@ function Header() {
   return (
     <header className="site-header">
       <Link to="/" className="brand">
-        <span className="brand-mark">
-          R<span>K</span>7
-        </span>
-        <span className="brand-name">
-          BUILDING WHAT
-          <br />
-          MATTERS
-        </span>
+        <img className="brand-logo" src="/RK7-1-Photoroom.png" alt="RK7" />
       </Link>
       <button
         className="mobile-menu"
@@ -138,14 +131,7 @@ function Footer() {
       <div className="footer-top">
         <div>
           <Link to="/" className="brand footer-brand">
-            <span className="brand-mark">
-              R<span>K</span>7
-            </span>
-            <span className="brand-name">
-              BUILDING WHAT
-              <br />
-              MATTERS
-            </span>
+            <img className="brand-logo" src="/RK7-1-Photoroom.png" alt="RK7" />
           </Link>
           <p>
             Good work starts with good people.
@@ -1188,14 +1174,7 @@ function AdminLogin() {
   return (
     <div className="login-page">
       <Link to="/" className="brand">
-        <span className="brand-mark">
-          R<span>K</span>7
-        </span>
-        <span className="brand-name">
-          BUILDING WHAT
-          <br />
-          MATTERS
-        </span>
+        <img className="brand-logo" src="/RK7-1-Photoroom.png" alt="RK7" />
       </Link>
       <form className="login-card" onSubmit={submit}>
         <span className="eyebrow">RK7 / TEAM ACCESS</span>
@@ -1257,14 +1236,7 @@ function AdminLayout() {
     <div className="admin-shell">
       <aside className={`admin-sidebar ${open ? "sidebar-open" : ""}`}>
         <Link to="/" className="brand">
-          <span className="brand-mark">
-            R<span>K</span>7
-          </span>
-          <span className="brand-name">
-            STUDIO
-            <br />
-            MANAGEMENT
-          </span>
+          <img className="brand-logo" src="/RK7-1-Photoroom.png" alt="RK7" />
         </Link>
         <div className="sidebar-label">CONTENT</div>
         <nav>
